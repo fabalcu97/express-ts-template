@@ -1,0 +1,11 @@
+{
+    "watch": [
+        "src"
+    ],
+    "verbose": true,
+    "ext": ".ts",
+    "ignore": [
+        "node_modules"
+    ],
+    "exec": "pnpm build && node dist/index.js"
+}
